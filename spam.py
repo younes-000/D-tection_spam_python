@@ -26,7 +26,7 @@ Y = mail_data ["Category"]
 X_train,X_test,Y_train,Y_test = train_test_split(X,Y, test_size=0.2,random_state=3)
 
 # on transform les données en texte en vecteurs numériques
-feature_extraction = TfidfVectorizer(min_df = 1, stop_words='français',lowercase=True)
+feature_extraction = TfidfVectorizer(min_df = 1, stop_words='french',lowercase=True)
 
 
 X_train_features = feature_extraction.fit_transform(X_train) # transformation en vecteurs de caractéristiques pondérés 
