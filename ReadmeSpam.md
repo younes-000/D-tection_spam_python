@@ -1,4 +1,4 @@
-## Spam Detection (ML)
+# Spam Detection (ML)
 # Description: Detects spam emails using Logistic Regression.
 
 ## How it works:
